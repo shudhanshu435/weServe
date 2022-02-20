@@ -1,5 +1,4 @@
 # weServe
-Inspiration: 
 
 Still today many around us do not know about diseases that spread by which means.
 
