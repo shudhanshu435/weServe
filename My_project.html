@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <title>WeServe</title>
+
+    <style>
+        body {
+            color: rgb(0, 0, 0);
+            background-color: rgba(243, 154, 236, 0.952);
+        }
+
+        .navbar {
+            background-color: rgb(36, 226, 240);
+            border-radius: 28px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .search {
+            float: right;
+            color: rgb(8, 7, 8);
+            padding: 12px 74px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        .search :hover {
+            background-color: rgb(144, 235, 189);
+        }
+
+
+        body {
+            background-color: #f685fa;
+        }
+
+        .container {
+            background-color: aliceblue;
+            border: 2px solid rgb(20, 19, 20);
+
+            padding: 10px 16px;
+            margin: 14px 10px;
+            border-radius: 13px;
+
+
+
+
+        }
+
+        .text {
+            color: blue;
+            background-color: rgba(165, 219, 79, 0.253);
+            border: 2px solid rgb(20, 9, 20);
+
+            padding: 5px 15px;
+            margin: 1px 1px;
+            border-radius: 9px;
+            width: 130px;
+            font-style: oblique;
+
+
+
+        }
+
+        .columnright {
+            font-weight: 1000;
+            font-style: italic;
+        }
+
+        .columnleft {
+            margin: 5px;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(36, 43, 13);
+        }
+
+        .cont {
+            border: 1px solid rgb(77, 75, 75);
+            margin: 10px 8px;
+            padding: 5px;
+            width: 23%;
+            border-radius: 28px;
+            float: right;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 8px auto;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+
+        .cont h1 {
+            text-align: center;
+            color: rgb(37, 37, 27);
+        }
+
+        .cont button {
+            display: block;
+            width: 20%;
+            flex: auto;
+            margin: 20px auto;
+        }
+
+        .btn1 {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn1:hover {
+            background-color: rgb(231, 7, 164);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Login</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search this website">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="cont">
+            <h1>Create a new account</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn1">Reset</button>
+                <button class="btn1">Submit</button>
+
+            </form>
+        </div>
+    </header>
+
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h1 class="title">About Coronavirus</h1>
+            <div class="about-content">
+                <div class="columnleft">
+                    <img src="https://media.istockphoto.com/photos/coronavirus-new-strain-wide-dark-background-picture-id1308624310?b=1&k=20&m=1308624310&s=170667a&w=0&h=HyEGR3DtK8TD2_kqoryPPuBWexQnG_KK0KhHYtXvm-c="
+                        alt="corona-image">
+                </div>
+                <div class="columnright">
+                    <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                        Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover
+                        without special treatment.
+                        HOW IT SPREADS
+                        The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected
+                        person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly
+                        fall on floors or surfaces.
+                        You can be infected by breathing in the virus if you are within close proximity of someone who
+                        has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="m-container" class="main-container">
+        <h1> <em>Some More Viruses</em></h1>
+        <div class="container">
+            <h2 class="card-title">COVID-19</h2>
+            <p id="firstPara">Coronavirus disese is an infectious disese caused by newly
+                discovered coronavirus. The virus can spread from an infected person’s mouth or nose in small liquid
+                particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory
+                droplets to smaller aerosols.<br>
+                You can be infected by breathing in the virus if you are near someone who has COVID-19, or by touching a
+                contaminated surface and then your eyes, nose or mouth. The virus spreads more easily indoors and in
+                crowded settings.</p>
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">Learn
+                More
+            </a>
+        </div>
+        <div class="container">
+            <h2>Ebola</h2>
+            <p id="secondPara">A virus thet causes severe bleeding, organ failure and can
+                also lead to death. The virus first spreads to people through direct contact with the blood, body fluids
+                and tissues of animals. Ebola virus then spreads to other people through direct contact with body fluids
+                of a person who is sick with or has died from EVD. This can occur when a person touches these infected
+                body fluids or objects that are contaminated with them.. </p>
+            <a href="https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease" target="_blank">Learn
+                More </a>
+        </div>
+        <div class="container">
+            <h2>Nipah Virus</h2>
+            <p id="thirdPara">Nipah virus (NiV) is a zoonotic virus, meaning that it can spread between animals and
+                people. Fruit bats, also called flying foxes, are the animal reservoir for NiV in nature. Nipah virus is
+                also known to cause illness in pigs and people. Infection with NiV is associated with encephalitis
+                (swelling of the brain) and can cause mild to severe illness and even death</p>
+            <a href="https://www.who.int/news-room/fact-sheets/detail/nipah-virus" target="_blank">Learn
+                More</a>
+        </div>
+        <div class="container">
+            <h2>Zika Virus</h2>
+            <p id="fourthPara">A disease caused by Zika virus that is spread through
+                mosquito bites. In few cases, Zika can trigger paralysis. In pregnant women, it
+                may cause subsequent birth defects.Transmission has been reported from infected men and women to
+                their sexual partners. The virus can be transmitted through anal, oral or vaginal sex.<br>
+
+                Symptoms of this virus are generally mild, with fever, rash and joint pain present. Most people who
+                develop the virus do not have symptoms.</p>
+            <a href="https://www.who.int/news-room/fact-sheets/detail/zika-virus#:~:text=Zika%20virus%20disease%20is%20caused,last%20for%202%E2%80%937%20days."
+                target="_blank">Learn More</a>
+        </div>
+        <div class="container">
+            <h2>Rabies</h2>
+            <p id="fifthPara">
+                Infection from this virus develops after a bite or scratch from an infected animal. This can result in
+                damage to the brain and nerves. Once symptoms begin to show, death almost always follows, according to
+                the National Health Service (NHS).<br>
+
+                "It destroys the brain, it's a really, really bad disease," Muhlberger said. "We have a vaccine against
+                rabies, and we have antibodies that work against rabies, so if someone gets bitten by a rabid animal we
+                can treat this person," she said.
+
+                However, she said, "if you don't get treatment, there's a 100% possibility you will die.</p>
+            <a href="https://www.who.int/news-room/fact-sheets/detail/rabies" target="_blank">Learn More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <!-- <i class="fas fa-chart-line"></i> -->
+            <!-- <div class="text"> -->
+            <h1>Prevention
+        </div>
+    </div>
+    <p>
+    <h3>To prevent infection and to slow transmission of COVID-19, do the following:</h3>
+    <ul>
+
+        <li>Maintain at least 1 metre distance between you and people coughing.</li>
+        <li>Avoid touching your face.</li>
+        <li>Cover your mouth and nose when coughing or sneezing.</li>
+        <li>Stay home if you feel unwell.</li>
+        <li>Refrain from smoking and other activities that weaken the lungs.</li>
+
+    </ul>
+    </p>
+    </div>
+    </div>
+    <div class="api"></div>
+
+
+
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Our Team</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <!-- <img src="images/" alt=profile"> -->
+                        <div class="text">Vicky Kumar Patel<br>C.S.E</div>
+                    </div>
+                    <!-- <p>Details</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <!-- <img src="img/mg1.jpg/" alt="profile"> -->
+                    <div class="text">Shudhanshu Kumar<br>C.S.E</div>
+                </div>
+                <!-- <p>Details</p> -->
+            </div>
+            <div class="card">
+                <div class="box">
+                    <!-- <img src="img/mg1.jpg/" alt="profile"> -->
+                    <div class="text">Khushanjali masiya<br>C.S.E</div>
+                </div>
+                <!-- <p>Details</p> -->
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <ul>
+            <li class="footerItem">Services</li>
+            <li class="footerItem">About Us</li>
+            <li class="footerItem">Contact</li>
+            <li class="footerItem"> Policy</li>
+        </ul>
+        <p class="copyright">WeServe © 2021</p>
+    </div>
+</body>
+
+</html>
